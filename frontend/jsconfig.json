@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",  // Set baseUrl to 'src' to simplify path resolution
+      "paths": {
+        "@components/*": ["components/*"],
+        "@utils/*": ["utils/*"]
+      }
+    },
+    "include": ["src/**/*"]
+  }
+  
